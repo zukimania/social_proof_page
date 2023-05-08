@@ -1,15 +1,15 @@
 /* CSS RESET */
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-:root {
-    --verified: rgb(55, 4, 30);
-    --box-background: rgb(55, 4, 30);
-    --white: magenta;
-    --span_back: rgb(160, 156, 156);
+:root{
+   --verified: rgb(55, 4, 30);
+   --box-background: rgb(55, 4, 30);
+   --white: magenta;
+   --span_back: rgb(160, 156, 156);
 }
 
 body {
@@ -18,12 +18,12 @@ body {
 }
 
 /* FIRST DIVISION */
-.review {
+.review{
     display: flex;
     justify-content: space-between;
 }
 
-span {
+span{
     display: block;
     background-color: var(--span_back);
     margin: 10px;
@@ -31,55 +31,49 @@ span {
     border-radius: 5px;
     font-size: 10px;
 }
-
 .one {
     position: relative;
     right: 80px;
 }
-
 .two {
     position: relative;
     right: 40px;
 }
-
 .detail {
     width: 200px;
 }
 
 .detail h2 {
-    color: var(--box-background);
+    color: magenta;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 15px;
 }
-
-.detail p {
+.detail p{
     font-size: 12px;
 }
 
 .img1 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    align-content: center;
-
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+   align-content: center;
+   
 }
 
 .four {
-    height: 200px;
-    width: 500px;
-    position: relative;
-    background-color: var(--verified);
+   height: 200px;
+   width: 500px;
+   position: relative;
+   background-color: var(--verified);
 }
-
 .five {
-    height: 200px;
-    width: 500px;
-    position: relative;
-    background-color: var(--verified);
-    top: 20px;
+  height: 200px;
+  width: 500px;
+  position: relative;
+  background-color: var(--verified);
+  top: 20px;
 }
-
 .six {
     height: 200px;
     width: 500px;
@@ -87,40 +81,33 @@ span {
     background-color: var(--verified);
     top: 40px;
 }
-
 img {
     border-radius: 50px;
     height: 40px;
 }
-
-.detail {
-    width: 200px;
+.detail{
+     width: 200px; 
 }
-
 h5 {
     color: magenta;
     font-size: 20px;
     /* font-weight: 600; */
     margin-bottom: 15px;
 }
-
 h4 {
     color: white;
     font-size: 20px;
 }
-
-p {
+p{
     color: white;
     font-style: oblique;
     /* font-weight: 300; */
 }
-
-body {
-    background: #000;
+body{
+    /* background: #000; */
     background: url(images/IMG-20230207-WA0004\ -\ Copy.jpg) no repeat center center fixed;
 }
-
-#bg-video {
+#bg-video{
     position: fixed;
     right: 0;
     bottom: 0;
@@ -136,33 +123,27 @@ body {
         align-items: center;
         text-align: center;
     }
-
-    .one {
+    .one{
         position: unset;
     }
-
-    .two {
+    .two{
         position: unset;
     }
-
     .img1 {
         flex-direction: column;
         align-items: center;
     }
-
-    .four {
+    .four{
         height: 200px;
         width: 300px;
         position: unset;
     }
-
-    .five {
+    .five{
         height: 200px;
-        width: 300px;
-        position: unset;
+            width: 300px;
+            position: unset;
     }
-
-    .six {
+    .six{
         height: 200px;
         width: 300px;
         position: unset;
